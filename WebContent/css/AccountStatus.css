@@ -1,0 +1,41 @@
+@charset "ISO-8859-1";
+
+.account-status-body{
+	display:flex;
+	flex-direction:column;
+}
+
+.account-status-title{
+	margin:0 auto;
+	font-size:50px;
+	font-weight:bold;
+	margin-bottom:20px;
+}
+
+.account-status-body th,td{
+	border:1px solid black;
+}
+
+.account-status-table{
+	border-collapse:collapse;
+	margin:0 auto;
+	margin-bottom:20px
+}
+
+.account-status-body button{
+	width:fit-content;
+	background-color:black;
+	margin:0 auto;
+	color:yellow;
+}
+
+.account-status-body a{
+	margin:0 auto;
+}
+
+.account-status-no-data{
+	font-size:40px;
+	margin:0 auto;
+	margin-bottom:20px;
+	
+}

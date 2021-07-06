@@ -1,0 +1,391 @@
+/*
+Author: Josette Rivera
+Date: 5/10/2021
+
+To integrate add the following tag to .jsp file:
+	<link rel="stylesheet" href="${pageContext.request.contextPath}/css/styleSheet.css">
+*/
+
+@charset "ISO-8859-1";
+
+@import url("https://fonts.googleapis.com/css?family=Roboto");
+@import url("https://fonts.googleapis.com/css?family=Audiowide");
+@import url("https://fonts.googleapis.com/css?family=Open+Sans");
+
+/* --- h ---*/
+h2
+{
+	font-family: "Roboto", sans serif;
+	color:#800000;
+	margin-left:25px;
+	margin-bottom:-5px;
+}
+
+h3
+{
+	margin-left:0px;
+	font-family: "Roboto", sans serif;
+	margin-bottom:5px;
+}
+
+/*--- p ---*/
+p
+{
+	font-family: "Open sans", sans serif;
+	color:white;
+	font-size: 0.75rem;
+	margin-top:10px;
+	margin-left:30px;
+}
+
+.footer-para
+{
+	position: relative;
+	float: right;
+    text-align: center;
+    margin-right:50px;
+}
+
+/*--- label ---*/
+
+label
+{
+	font-family: "Open sans", sans serif;
+	font-size: .85rem;
+	font-weight:bold;
+	margin-left: 25px;
+}
+
+.usernameLabel
+{
+	margin-left: 25px;
+	margin-right: 0px;
+	text-align:center;
+}
+
+.passwordLabel
+{
+	margin-left: 25px;
+	margin-right: 5px;
+}
+
+.customer-id-label
+{
+	margin-right:20px;
+}
+
+.fName-label 
+{
+    margin-right: 30px;
+}
+
+.lname-label 
+{
+    margin-right: 31px;
+}
+
+.dob-label
+{
+    margin-right: 70px;
+}
+
+.address1-label 
+{
+    margin-right: 6px;
+}
+
+.address2-label 
+{
+    margin-right: 6px;
+}
+
+.city-label 
+{
+    margin-right: 75px;
+}
+
+.state-label
+{
+	margin-right: 65px;
+}
+
+.zip-label
+{
+	margin-right: 42px;
+}
+
+
+
+/* ---button---*/
+input[type=button], input[type=submit]
+{
+  background-color: #c10404ab;
+  border: none;
+  border-width: 1px;
+  color: white;
+  padding: 6px 10px;
+  text-decoration: none;
+  font-family: "Open sans", sans serif;
+  font-size: 0.75rem;
+  margin-top: 10px;
+  margin-left: 125px;
+}
+
+input[type=button]:hover, input[type=submit]:hover
+{
+  background-color: #c10404;
+  border: none;
+  font-weight:bold;
+}
+
+input[type=submit].exc-menu-button
+{
+  font-size: 0.75rem;
+  margin-top: 0px;
+  margin-left: 5px;
+  margin-right: 20px;
+  padding: 3px 7px;
+}
+
+input[type=submit].teller-menu-button
+{
+	font-size: 0.75rem;
+  margin-top: 0px;
+  margin-left: 5px;
+  margin-right: 20px;
+  padding: 3px 7px;
+}
+
+input[type=submit].table-button
+{
+    margin-left: 10px;
+    margin-top: 0px;
+}
+
+.home-body-button
+{
+	background-color: #c10404ab;
+	border: none;
+	border-width: 1px;
+	color: white;
+	padding: 6px 10px;
+	text-decoration: none;
+	font-family: "Open sans", sans serif;
+	font-size: 0.75rem;
+	margin-left: 80px;
+}
+
+.home-body-button:hover
+{
+	background-color: #c10404;
+	border: none;
+	font-weight:bold;
+}
+
+
+
+.create-account-button
+{
+	position: relative;
+    top: 50%;
+    right: 25%;
+}
+
+.cancel-button 
+{
+	margin-left: 35px;
+}
+
+input.save-button
+{
+	margin-left: 20px;
+}
+
+/*--- form ---*/
+form
+{
+	margin-top: 1.5em;
+	display: block;
+	
+}
+
+.search-by-form
+{
+	float:right;
+	margin-top:-2px;
+}
+
+.teller-search-by-form
+{
+	float:right;
+	margin-top:-5px;
+}
+
+.status-form
+{
+	float:right;
+	margin-top:0em;
+	margin-left: 20px;
+	margin-right: 25px;
+}
+
+.button-form
+{
+	float:left;
+    width: 50%;
+}
+
+.login-form
+{
+	margin-top:10px;
+}
+
+/*--- div ---*/
+div
+{
+	margin-top: 25px;
+}
+
+/* page header*/
+.header
+{
+	width: 100%;
+	background-color:#282828;
+	padding-top:5px;
+	padding-bottom: 9px;
+	margin-top:0px;
+}
+
+/* page footer */
+.footer
+{
+	width:100%;
+	background-color:black;
+	padding-top:15px;
+	padding-bottom:230px;
+	border-top-style:solid;
+	border-width: 5px;
+	border-color: #f35858ab; /*#d20000;*/
+	
+	position:relative;
+}
+
+
+.footer-element
+{
+	float: right;
+    width: 30%;
+    margin-right:30px; 
+    text-align: center;
+}
+
+.footer-title 
+{
+    text-align: center;
+}
+
+/*page title*/
+.page-title-section
+{
+	border-bottom-style:solid;
+	border-width: 1px;
+	border-color:#373737;
+	margin-left: 15px;
+}
+
+.title-logo
+{
+	color:white;
+	font-family: "Audiowide", sans serif;
+	margin-top: 9px;
+	margin-left:20px;
+	margin-bottom:30px;
+	font-size: 32px;
+}
+
+.Account-section
+{
+	float: right;
+    text-align: center;
+    margin-top: 1.5em;
+    margin-right: 80px;
+}
+
+.accounts-header{
+	position: relative;
+	margin-right: 140px;
+}
+
+.create-account-button{
+	position:relative;
+	margin-right: 100px;
+}
+
+.create-account{
+	position: relative;
+	margin-right: 180px;
+}
+
+.create-account-form-buttons{
+	position: relative;
+	margin-right: 80px;
+}
+
+/* div navs*/
+.nav
+{
+	margin-top: 0px;
+	background-color:#660000;/*#7f7f7f;#fabd05 - yellow*/
+	padding-top:10px;
+	padding-bottom:5px;
+	border-bottom-style:solid;
+	border-width: 5px;
+	border-color: #f35858ab; /*#d20000;*/
+}
+
+nav a
+{
+	margin-left:20px;
+	font-family: "Roboto", sans serif;
+	text-decoration: none; 
+	color:#acacac;/*#c40000; #800000;#473601;*/
+	font-weight:bold;
+	margin-top:20px;
+}
+
+nav a:hover
+{
+	color:white;/*#df0000;*/
+	font-weigt:bold;
+	text-decoration:underline;
+}
+
+/*--- Table ---*/
+table 
+{
+
+  border-collapse: collapse;
+  width: 80%;
+  margin-top: 40px;
+  margin-bottom: 20px;
+  margin-right: 550px;
+  margin-left: 80px;
+  font-family: "Roboto",sans-serif;
+}
+
+th, td 
+{
+  border: 1px solid black;
+}
+
+th, td 
+{
+  text-align: center;
+  padding: 8px;  
+}
+
+.accounts-update-page{
+	width: 50%;
+	margin: 0% 0% 0% 0%;
+}
+

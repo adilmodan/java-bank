@@ -1,0 +1,50 @@
+@charset "ISO-8859-1";
+
+/*
+This is the barebone styling for the Create Customer Body
+I can fine tune it up later once we are done integrating the CreateCustomer.jsp with all
+the required links and servlet because i need to add a few more divs and class names and 
+doing it now may lead to merge conflicts.
+*/
+
+
+.home-body-title{
+	width:fit-content;
+	margin:0 auto;
+	font-size:60px;
+	font-weight:bolder;
+}
+
+.home-body>form{
+	width:300px;
+	display:flex;
+	flex-direction:column;
+	margin-left:30px;
+}
+
+.home-body>form>label{
+	font-size:25px;
+	font-weight:bold;
+}
+
+.home-body>form>input{
+	height:30px;
+}
+
+.home-body>form>input[type=submit]{
+	background-color:black;
+	color:white;
+	width:60px;
+	margin:0 auto;
+}
+
+.home-body>form>input[type=button]{
+	background-color:black;
+	color:white;
+	width:60px;
+	margin:0 auto;
+}
+
+p {
+	text-color: black; !important
+}
